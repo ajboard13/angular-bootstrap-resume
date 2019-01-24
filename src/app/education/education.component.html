@@ -1,0 +1,193 @@
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Education</h1>
+      <p class="lead">This section higlights Aaron's education, including formal and self taught.</p>
+
+<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); mjExp.toggle();" mdbWavesEffect>
+  Moosejaw Mountaineering
+</button>
+
+<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); beaumontExp.toggle()" mdbWavesEffect>
+  Royal Oak Beaumont
+</button>
+
+<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); otherExp.toggle()" mdbWavesEffect>
+  Others
+</button>
+
+<div mdbCollapse [isCollapsed]="False" #mjExp="bs-collapse">    
+  <!-- News jumbotron -->
+  <div class="jumbotron text-center hoverable p-4">
+  
+      <!-- Grid row -->
+      <div class="row">
+    
+        <!-- Grid column -->
+        <div class="col-md-4 offset-md-1 mx-3 my-3">
+    
+          <!-- Featured image -->
+          <div class="view overlay waves-light" mdbWavesEffect>
+            <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+    
+        </div>
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-md-7 text-md-left ml-3 mt-3">
+    
+          <!-- Excerpt -->
+          <a href="#!" class="green-text">
+            <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
+          </a>
+    
+          <h4 class="h4 mb-4">Aaron Board</h4>
+    
+          <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
+              yet challenging work environment and personal projects. He loves learning new approaches to solving
+              difficult problems.</p>
+    
+            <div class="row">
+                <div class="col-md-2 col-sm-4"></div>
+              <div class="col-md-4 col-sm-2">
+                <!--LinkedIn-->
+                <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/aaron-board/" style="font-size: 3rem"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <div class="col-md-4 col-sm-2">
+                <!--Github-->
+                <a type="button" class="btn-floating btn-small btn-dribbble" href="https://github.com/ajboard13" style="font-size: 3rem; color: darkslategray"><i class="fab fa-github"></i></a>
+              </div>
+              <div class="col-md-2 col-sm-4"></div>
+            </div>
+    
+        </div>
+        <!-- Grid column -->
+    
+      </div>
+      <!-- Grid row -->
+    
+    </div>
+    <!-- News jumbotron -->
+</div>
+
+<div mdbCollapse [isCollapsed]="False" #beaumontExp="bs-collapse">    
+    <!-- News jumbotron -->
+    <div class="jumbotron text-center hoverable p-4">
+    
+        <!-- Grid row -->
+        <div class="row">
+      
+          <!-- Grid column -->
+          <div class="col-md-4 offset-md-1 mx-3 my-3">
+      
+            <!-- Featured image -->
+            <div class="view overlay waves-light" mdbWavesEffect>
+              <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+      
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-md-7 text-md-left ml-3 mt-3">
+      
+            <!-- Excerpt -->
+            <a href="#!" class="green-text">
+              <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
+            </a>
+      
+            <h4 class="h4 mb-4">Aaron Board</h4>
+      
+            <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
+                yet challenging work environment and personal projects. He loves learning new approaches to solving
+                difficult problems.</p>
+      
+              <div class="row">
+                  <div class="col-md-2 col-sm-4"></div>
+                <div class="col-md-4 col-sm-2">
+                  <!--LinkedIn-->
+                  <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/aaron-board/" style="font-size: 3rem"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="col-md-4 col-sm-2">
+                  <!--Github-->
+                  <a type="button" class="btn-floating btn-small btn-dribbble" href="https://github.com/ajboard13" style="font-size: 3rem; color: darkslategray"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="col-md-2 col-sm-4"></div>
+              </div>
+      
+          </div>
+          <!-- Grid column -->
+      
+        </div>
+        <!-- Grid row -->
+      
+      </div>
+      <!-- News jumbotron -->
+  </div>
+
+  <div mdbCollapse [isCollapsed]="False" #otherExp="bs-collapse">    
+      <!-- News jumbotron -->
+      <div class="jumbotron text-center hoverable p-4">
+      
+          <!-- Grid row -->
+          <div class="row">
+        
+            <!-- Grid column -->
+            <div class="col-md-4 offset-md-1 mx-3 my-3">
+        
+              <!-- Featured image -->
+              <div class="view overlay waves-light" mdbWavesEffect>
+                <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
+                <a>
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+        
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="col-md-7 text-md-left ml-3 mt-3">
+        
+              <!-- Excerpt -->
+              <a href="#!" class="green-text">
+                <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
+              </a>
+        
+              <h4 class="h4 mb-4">Aaron Board</h4>
+        
+              <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
+                  yet challenging work environment and personal projects. He loves learning new approaches to solving
+                  difficult problems.</p>
+        
+                <div class="row">
+                    <div class="col-md-2 col-sm-4"></div>
+                  <div class="col-md-4 col-sm-2">
+                    <!--LinkedIn-->
+                    <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/aaron-board/" style="font-size: 3rem"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="col-md-4 col-sm-2">
+                    <!--Github-->
+                    <a type="button" class="btn-floating btn-small btn-dribbble" href="https://github.com/ajboard13" style="font-size: 3rem; color: darkslategray"><i class="fab fa-github"></i></a>
+                  </div>
+                  <div class="col-md-2 col-sm-4"></div>
+                </div>
+        
+            </div>
+            <!-- Grid column -->
+        
+          </div>
+          <!-- Grid row -->
+        
+        </div>
+        <!-- News jumbotron -->
+    </div>
+  </div>
+</div>
