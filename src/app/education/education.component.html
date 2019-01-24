@@ -5,190 +5,166 @@
         <h2 class="h1-responsive font-weight-bold text-center my-5">Education</h2>
       <p class="grey-text text-center w-responsive mx-auto mb-5">This section higlights Aaron's education, including formal and self taught.</p>
 <div class="text-center">
-  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); mjExp.toggle();" mdbWavesEffect>
-    Moosejaw Mountaineering
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); wayne.toggle();" mdbWavesEffect>
+    Wayne State
   </button>
 
-  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); beaumontExp.toggle()" mdbWavesEffect>
-    Royal Oak Beaumont
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); gc.toggle()" mdbWavesEffect>
+    Grand Circus
   </button>
 
-  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); otherExp.toggle()" mdbWavesEffect>
-    Others
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); macomb.toggle()" mdbWavesEffect>
+    Macomb Community College
   </button>
 </div>
-<div mdbCollapse [isCollapsed]="false" #mjExp="bs-collapse">    
-  <!-- News jumbotron -->
-  <div class="jumbotron text-center hoverable p-4">
-  
-      <!-- Grid row -->
-      <div class="row">
-    
-        <!-- Grid column -->
-        <div class="col-md-4 offset-md-1 mx-3 my-3">
-    
-          <!-- Featured image -->
-          <div class="view overlay waves-light" mdbWavesEffect>
-            <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
-            <a>
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-    
-        </div>
-        <!-- Grid column -->
-    
-        <!-- Grid column -->
-        <div class="col-md-7 text-md-left ml-3 mt-3">
-    
-          <!-- Excerpt -->
-          <a href="#!" class="green-text">
-            <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
-          </a>
-    
-          <h4 class="h4 mb-4">Aaron Board</h4>
-    
-          <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
-              yet challenging work environment and personal projects. He loves learning new approaches to solving
-              difficult problems.</p>
-    
-            <div class="row">
-                <div class="col-md-2 col-sm-4"></div>
-              <div class="col-md-4 col-sm-2">
-                <!--LinkedIn-->
-                <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/aaron-board/" style="font-size: 3rem"><i class="fab fa-linkedin"></i></a>
-              </div>
-              <div class="col-md-4 col-sm-2">
-                <!--Github-->
-                <a type="button" class="btn-floating btn-small btn-dribbble" href="https://github.com/ajboard13" style="font-size: 3rem; color: darkslategray"><i class="fab fa-github"></i></a>
-              </div>
-              <div class="col-md-2 col-sm-4"></div>
-            </div>
-    
-        </div>
-        <!-- Grid column -->
-    
-      </div>
-      <!-- Grid row -->
-    
-    </div>
+<div mdbCollapse [isCollapsed]="false" #wayne="bs-collapse">    
     <!-- News jumbotron -->
+    <div class="jumbotron text-center hoverable p-4" >
+       
+           <!-- Grid row -->
+           <div class="row">
+         
+             <!-- Grid column -->
+             <div class="col-md-4 offset-md-1 mx-3 my-3">
+         
+               <!-- Featured image -->
+               <div class="view overlay waves-light" mdbWavesEffect>
+                 <img src="assets/images/wayne.jpg" class="img-fluid" alt="Wayne State University">
+                 <a>
+                   <div class="mask rgba-white-slight"></div>
+                 </a>
+               </div>
+         
+             </div>
+             <!-- Grid column -->
+         
+             <!-- Grid column -->
+             <div class="col-md-7 text-md-left ml-3 mt-3">
+         
+               <h4 class="h4 mb-4">Wayne State</h4>
+               
+               <h6 class="h6 pb-1"><i class="fas fa-graduation-cap pr-1"></i> B.S. in Computer Science</h6>
+               <h6 class="h6 pb-1"><i class="fas fa-clock pr-1"></i> Expected May 2020</h6>
+               
+               <!-- Grid row -->
+               <div class="row mb-3">
+                   <div class="col-md-1 col-2">
+                     <i class="fas fa-trophy fa-2x yellow-text"></i>
+                   </div>
+                   <div class="col-md-11 col-10">
+                     <h5 class="font-weight-bold mb-3">Current GPA of 3.23</h5>
+                   </div>
+                 </div>
+                 <!-- Grid row -->
+         
+             </div>
+             <!-- Grid column -->
+         
+           </div>
+           <!-- Grid row -->
+         
+         </div>
+         <!-- News jumbotron -->
 </div>
 
-<div mdbCollapse [isCollapsed]="false" #beaumontExp="bs-collapse">    
+<div mdbCollapse [isCollapsed]="false" #gc="bs-collapse">        
     <!-- News jumbotron -->
-    <div class="jumbotron text-center hoverable p-4">
-    
-        <!-- Grid row -->
-        <div class="row">
-      
-          <!-- Grid column -->
-          <div class="col-md-4 offset-md-1 mx-3 my-3">
-      
-            <!-- Featured image -->
-            <div class="view overlay waves-light" mdbWavesEffect>
-              <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-      
-          </div>
-          <!-- Grid column -->
-      
-          <!-- Grid column -->
-          <div class="col-md-7 text-md-left ml-3 mt-3">
-      
-            <!-- Excerpt -->
-            <a href="#!" class="green-text">
-              <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
-            </a>
-      
-            <h4 class="h4 mb-4">Aaron Board</h4>
-      
-            <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
-                yet challenging work environment and personal projects. He loves learning new approaches to solving
-                difficult problems.</p>
-      
-              <div class="row">
-                  <div class="col-md-2 col-sm-4"></div>
-                <div class="col-md-4 col-sm-2">
-                  <!--LinkedIn-->
-                  <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/aaron-board/" style="font-size: 3rem"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <!--Github-->
-                  <a type="button" class="btn-floating btn-small btn-dribbble" href="https://github.com/ajboard13" style="font-size: 3rem; color: darkslategray"><i class="fab fa-github"></i></a>
-                </div>
-                <div class="col-md-2 col-sm-4"></div>
-              </div>
-      
-          </div>
-          <!-- Grid column -->
-      
-        </div>
-        <!-- Grid row -->
-      
-      </div>
-      <!-- News jumbotron -->
+    <div class="jumbotron text-center hoverable p-4" >
+       
+           <!-- Grid row -->
+           <div class="row">
+         
+             <!-- Grid column -->
+             <div class="col-md-4 offset-md-1 mx-3 my-3">
+         
+               <!-- Featured image -->
+               <div class="view overlay waves-light" mdbWavesEffect>
+                 <img src="assets/images/grand-circus.jpg" class="img-fluid" alt="Grand Circus">
+                 <a>
+                   <div class="mask rgba-white-slight"></div>
+                 </a>
+               </div>
+         
+             </div>
+             <!-- Grid column -->
+         
+             <!-- Grid column -->
+             <div class="col-md-7 text-md-left ml-3 mt-3">
+         
+               <h4 class="h4 mb-4">Grand Circus</h4>
+               
+               <h6 class="h6 pb-1"><i class="fas fa-graduation-cap pr-1"></i> Java Coding Bootcamp</h6>
+               <h6 class="h6 pb-1"><i class="fas fa-clock pr-1"></i> August 2017</h6>
+               
+               <!-- Grid row -->
+               <div class="row mb-3">
+                   <div class="col-md-1 col-2">
+                     <i class="fas fa-trophy fa-2x yellow-text"></i>
+                   </div>
+                   <div class="col-md-11 col-10">
+                     <h5 class="font-weight-bold mb-3">Received the “Java Wizard” award upon completion of the bootcamp</h5>
+                   </div>
+                 </div>
+                 <!-- Grid row -->
+         
+             </div>
+             <!-- Grid column -->
+         
+           </div>
+           <!-- Grid row -->
+         
+         </div>
+         <!-- News jumbotron -->
   </div>
 
-  <div mdbCollapse [isCollapsed]="false" #otherExp="bs-collapse">    
+  <div mdbCollapse [isCollapsed]="false" #macomb="bs-collapse">          
       <!-- News jumbotron -->
-      <div class="jumbotron text-center hoverable p-4">
-      
-          <!-- Grid row -->
-          <div class="row">
-        
-            <!-- Grid column -->
-            <div class="col-md-4 offset-md-1 mx-3 my-3">
-        
-              <!-- Featured image -->
-              <div class="view overlay waves-light" mdbWavesEffect>
-                <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
-                <a>
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-        
-            </div>
-            <!-- Grid column -->
-        
-            <!-- Grid column -->
-            <div class="col-md-7 text-md-left ml-3 mt-3">
-        
-              <!-- Excerpt -->
-              <a href="#!" class="green-text">
-                <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
-              </a>
-        
-              <h4 class="h4 mb-4">Aaron Board</h4>
-        
-              <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
-                  yet challenging work environment and personal projects. He loves learning new approaches to solving
-                  difficult problems.</p>
-        
-                <div class="row">
-                    <div class="col-md-2 col-sm-4"></div>
-                  <div class="col-md-4 col-sm-2">
-                    <!--LinkedIn-->
-                    <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/aaron-board/" style="font-size: 3rem"><i class="fab fa-linkedin"></i></a>
-                  </div>
-                  <div class="col-md-4 col-sm-2">
-                    <!--Github-->
-                    <a type="button" class="btn-floating btn-small btn-dribbble" href="https://github.com/ajboard13" style="font-size: 3rem; color: darkslategray"><i class="fab fa-github"></i></a>
-                  </div>
-                  <div class="col-md-2 col-sm-4"></div>
-                </div>
-        
-            </div>
-            <!-- Grid column -->
-        
-          </div>
-          <!-- Grid row -->
-        
-        </div>
-        <!-- News jumbotron -->
+      <div class="jumbotron text-center hoverable p-4" >
+         
+             <!-- Grid row -->
+             <div class="row">
+           
+               <!-- Grid column -->
+               <div class="col-md-4 offset-md-1 mx-3 my-3">
+           
+                 <!-- Featured image -->
+                 <div class="view overlay waves-light" mdbWavesEffect>
+                   <img src="assets/images/macomb.jpg" class="img-fluid" alt="Macomb Community College">
+                   <a>
+                     <div class="mask rgba-white-slight"></div>
+                   </a>
+                 </div>
+           
+               </div>
+               <!-- Grid column -->
+           
+               <!-- Grid column -->
+               <div class="col-md-7 text-md-left ml-3 mt-3">
+           
+                 <h4 class="h4 mb-4">Macomb Community College</h4>
+                 
+                 <h6 class="h6 pb-1"><i class="fas fa-graduation-cap pr-1"></i> Associates in General Studies</h6>
+                 <h6 class="h6 pb-1"><i class="fas fa-clock pr-1"></i> May 2017</h6>
+                 
+                 <!-- Grid row -->
+                 <div class="row mb-3">
+                     <div class="col-md-1 col-2">
+                       <i class="fas fa-trophy fa-2x yellow-text"></i>
+                     </div>
+                     <div class="col-md-11 col-10">
+                       <h5 class="font-weight-bold mb-3">Graduated Cum Laude</h5>
+                     </div>
+                   </div>
+                   <!-- Grid row -->
+           
+               </div>
+               <!-- Grid column -->
+           
+             </div>
+             <!-- Grid row -->
+           
+           </div>
+           <!-- News jumbotron -->
     </div>
   </div>
 </div>
