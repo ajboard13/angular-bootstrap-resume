@@ -1,22 +1,24 @@
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Experience</h1>
-      <p class="lead">This section higlights Aaron's experience, both professional and personal.</p>
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Experience</h2>
+      <p class="grey-text text-center w-responsive mx-auto mb-5">This section higlights my experience, both professional and personal.</p>
+<div class="text-center">
 
-<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); mjExp.toggle();" mdbWavesEffect>
-  Moosejaw Mountaineering
-</button>
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); mjExp.toggle();" mdbWavesEffect>
+    Moosejaw Mountaineering
+  </button>
 
-<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); beaumontExp.toggle()" mdbWavesEffect>
-  Royal Oak Beaumont
-</button>
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); beaumontExp.toggle()" mdbWavesEffect>
+    Royal Oak Beaumont
+  </button>
 
-<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); otherExp.toggle()" mdbWavesEffect>
-  Others
-</button>
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); otherExp.toggle()" mdbWavesEffect>
+    Others
+  </button>
+</div>
 
-<div mdbCollapse [isCollapsed]="False" #mjExp="bs-collapse">    
+<div mdbCollapse [isCollapsed]="true" #mjExp="bs-collapse">    
   <!-- News jumbotron -->
   <div class="jumbotron text-center hoverable p-4">
   
@@ -28,7 +30,7 @@
     
           <!-- Featured image -->
           <div class="view overlay waves-light" mdbWavesEffect>
-            <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
+            <img src="../../assets/images/Moosejaw.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
             <a>
               <div class="mask rgba-white-slight"></div>
             </a>
@@ -40,12 +42,7 @@
         <!-- Grid column -->
         <div class="col-md-7 text-md-left ml-3 mt-3">
     
-          <!-- Excerpt -->
-          <a href="#!" class="green-text">
-            <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Software Developer</h6>
-          </a>
-    
-          <h4 class="h4 mb-4">Aaron Board</h4>
+          <h4 class="h4 mb-4">E-commerce Java Developer</h4>
     
           <p class="font-weight-normal">Aaron is a software developer that is constantly looking to expand my knowledge and skills through a fun
               yet challenging work environment and personal projects. He loves learning new approaches to solving
@@ -74,7 +71,7 @@
     <!-- News jumbotron -->
 </div>
 
-<div mdbCollapse [isCollapsed]="False" #beaumontExp="bs-collapse">    
+<div mdbCollapse [isCollapsed]="true" #beaumontExp="bs-collapse">    
     <!-- News jumbotron -->
     <div class="jumbotron text-center hoverable p-4">
     
@@ -132,7 +129,7 @@
       <!-- News jumbotron -->
   </div>
 
-  <div mdbCollapse [isCollapsed]="False" #otherExp="bs-collapse">    
+  <div mdbCollapse [isCollapsed]="true" #otherExp="bs-collapse">    
       <!-- News jumbotron -->
       <div class="jumbotron text-center hoverable p-4">
       

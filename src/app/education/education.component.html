@@ -1,22 +1,23 @@
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Education</h1>
-      <p class="lead">This section higlights Aaron's education, including formal and self taught.</p>
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Education</h2>
+      <p class="grey-text text-center w-responsive mx-auto mb-5">This section higlights Aaron's education, including formal and self taught.</p>
+<div class="text-center">
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); mjExp.toggle();" mdbWavesEffect>
+    Moosejaw Mountaineering
+  </button>
 
-<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); mjExp.toggle();" mdbWavesEffect>
-  Moosejaw Mountaineering
-</button>
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); beaumontExp.toggle()" mdbWavesEffect>
+    Royal Oak Beaumont
+  </button>
 
-<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); beaumontExp.toggle()" mdbWavesEffect>
-  Royal Oak Beaumont
-</button>
-
-<button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); otherExp.toggle()" mdbWavesEffect>
-  Others
-</button>
-
-<div mdbCollapse [isCollapsed]="False" #mjExp="bs-collapse">    
+  <button class="btn btn-primary waves-light" type="button" (click)=" collapseOthers(); otherExp.toggle()" mdbWavesEffect>
+    Others
+  </button>
+</div>
+<div mdbCollapse [isCollapsed]="true" #mjExp="bs-collapse">    
   <!-- News jumbotron -->
   <div class="jumbotron text-center hoverable p-4">
   
@@ -74,7 +75,7 @@
     <!-- News jumbotron -->
 </div>
 
-<div mdbCollapse [isCollapsed]="False" #beaumontExp="bs-collapse">    
+<div mdbCollapse [isCollapsed]="true" #beaumontExp="bs-collapse">    
     <!-- News jumbotron -->
     <div class="jumbotron text-center hoverable p-4">
     
@@ -132,7 +133,7 @@
       <!-- News jumbotron -->
   </div>
 
-  <div mdbCollapse [isCollapsed]="False" #otherExp="bs-collapse">    
+  <div mdbCollapse [isCollapsed]="true" #otherExp="bs-collapse">    
       <!-- News jumbotron -->
       <div class="jumbotron text-center hoverable p-4">
       
